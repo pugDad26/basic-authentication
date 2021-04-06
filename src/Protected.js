@@ -17,7 +17,7 @@ const Protected = ({history}) => {
             )
             .catch(
                 () => {
-                    props.history.push('/profile');
+                    history.push('/profile');
                 }
             );
         }
