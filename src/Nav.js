@@ -35,6 +35,16 @@ const Nav = ({ current }) => {
                 </Menu.Item>
 
                 <Menu.Item 
+                    key='morepublic'
+                >
+                    <Link 
+                        to='/morepublic'
+                    >
+                        <ProfileOutlined />More Public
+                    </Link>
+                </Menu.Item>
+
+                <Menu.Item 
                     key='protected'
                 >
                     <Link 

@@ -16,6 +16,9 @@ import Public from './Public';
 import Profile from './Profile';
 import Protected from './Protected';
 
+//import component for Project 5
+import MorePublic from './MorePublic';
+
 const Router = () => {
 
     const [current, setCurrent] = useState('home');
@@ -53,6 +56,10 @@ const Router = () => {
                 <Route 
                     exact path="/profile" 
                     component={Profile}
+                />
+                <Route 
+                    exact path="/morepublic" 
+                    component={MorePublic}
                 />
                 <Route 
                     component={Public}
